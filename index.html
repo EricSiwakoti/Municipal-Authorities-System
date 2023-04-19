@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Municipal Authorities System</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="https://icons.iconarchive.com/icons/icons-land/vista-flags/256/Nepal-Flag-3-icon.png" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="firstSection">
+          <div class="navLogo">
+            <img
+              src="https://www.janakpurmun.gov.np/sites/all/themes/newmun/new_logo.png"
+              alt="Logo"
+            />
+          </div>
+          <div id="datetime-container"></div>
+        </div>
+        <div class="navAdjust">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News And Events</a></li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn buttonSize">Services</button>
+                <div class="dropdown-content">
+                  <a href="#birthcert">Birth Certificate</a>
+                  <a href="#deathcert">Death Certificate</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="#complaints">Complaints</a></li>
+            <li><a href="#ourteams">Our Teams</a></li>
+          </ul>
+        </div>
+        <div class="navLogo">
+          <img 
+            src="https://kathmandu.gov.np/wp-content/themes/kmc-theme/images/flag-nepal.gif"
+            alt="Flag"
+            class="flagLogo"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main class="mainHeight">
+      <section class="news-events">
+        <h2 class="section-title">News And Events</h2>
+        <div class="news-events-container">
+          <div class="news-event">
+            <img src="image1.jpg" alt="Event Image">
+            <h3 class="news-event-title">Event Title</h3>
+            <p class="news-event-date">Date</p>
+            <p class="news-event-description">Event Description</p>
+            <button class="link-button">Read More</button>
+          </div>
+          <div class="news-event">
+            <img src="image2.jpg" alt="News Image">
+            <h3 class="news-event-title">News Title</h3>
+            <p class="news-event-date">Date</p>
+            <p class="news-event-description">News Description</p>
+            <button class="link-button">Read More</button>
+          </div>
+          <div class="news-event">
+            <img src="image3.jpg" alt="Event Image">
+            <h3 class="news-event-title">Event Title</h3>
+            <p class="news-event-date">Date</p>
+            <p class="news-event-description">Event Description</p>
+            <button class="link-button">Read More</button>
+          </div>
+          <div class="news-event">
+            <img src="image4.jpg" alt="News Image">
+            <h3 class="news-event-title">News Title</h3>
+            <p class="news-event-date">Date</p>
+            <p class="news-event-description">News Description</p>
+            <button class="link-button">Read More</button>
+          </div>
+        </div>
+      </section>    
+
+    <div class="position-arrangement">
+      <section class="slider-position">
+        <div class="slider">
+          <div class="slides">
+            <div class="slide">1</div>
+            <div class="slide">2</div>
+            <div class="slide">3</div>
+            <div class="slide">4</div>
+            <div class="slide">5</div>
+            <div class="slide">6</div>
+            <div class="slide">7</div>
+            <div class="slide">8</div>
+          </div>
+          <div class="controls">
+            <button class="goToPrev">←</button>
+            <button class="goToNext">→</button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div id="calendar-header">
+          <button id="prev-button">&lt;</button>
+          <h2 id="month-year"></h2>
+          <button id="next-button">&gt;</button>
+        </div>
+        <div class="calendar-position">
+        <table>
+          <thead>
+            <tr>
+              <th>Sun</th>
+              <th>Mon</th>
+              <th>Tue</th>
+              <th>Wed</th>
+              <th>Thu</th>
+              <th>Fri</th>
+              <th>Sat</th>
+            </tr>
+          </thead>
+          <tbody id="calendar-body">
+          </tbody>
+        </table>
+      </div>
+      </section>   
+    </div>
+    </main>
+
+    <footer class="footerSite">
+      <div class="footerDisplay">
+        <div class="footerSpace">
+          <h2 class="fontWhite">
+            Kathmandu Municipality, <br />City Executive Office, <br />
+            Bagmati Province
+          </h2>
+          <p class="fontWhite">Bagdarbar, Kathmandu</p>
+          <span>
+            <img
+              src="https://kathmandu.gov.np/wp-content/themes/kmc-theme/images/ic_phone.svg"
+              alt="phone"
+            />
+            <span class="fontWhite">Phone : +977 14231481</span>
+          </span>
+          <br />
+          <span>
+            <img
+              src="https://kathmandu.gov.np/wp-content/themes/kmc-theme/images/ic_fax.svg"
+              alt="fax"
+            />
+            <span class="fontWhite">Fax : +977 1426509</span>
+          </span>
+          <br />
+          <span>
+            <img
+              src="https://kathmandu.gov.np/wp-content/themes/kmc-theme/images/ic_mail.svg"
+              alt="email"
+            />
+            <span class="fontWhite">Email :</span>
+          <small class="fontWhite"
+            >mayor@kathmandu.gov.np<br />
+            ceo@kathmandu.gov.np<br />
+            info@kathmandu.gov.np</small
+          >
+        </div>
+
+        <div class="footerSpace">
+          <h2 class="fontWhite">Google Map</h2>
+          <iframe
+            title="GoogleMap"
+            width="600"
+            height="350"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=Kathmandu%20Metropolitan%20City%20Office&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          ></iframe
+          ><a href=""></a><br /><style>
+            .mapouter {
+              position: relative;
+              text-align: right;
+              height: 300px;
+              width: 300px;
+            }</style
+          ><style>
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              height: 300px;
+              width: 300px;
+            }
+          </style>
+        </div>
+
+        <div class="footerSpace">
+          <h1 class="fontWhite">Important Link</h1>
+          <ul>
+            <li>
+              <a
+                class="fontWhite"
+                href="https://www.kmcebps.gov.np/Home/BuildingPermitApplicationForm"
+                >Map Pass Form Download
+              </a>
+            </li>
+            <li>
+              <a
+                class="fontWhite"
+                href="https://daokathmandu.moha.gov.np/page/download-4"
+                >Useful Forms Including Citizenship / Photocopy / Minor ID Card
+                Download
+              </a>
+            </li>
+            <li>
+              <a class="fontWhite" href="https://www.moha.gov.np/"
+                >Ministry Of Home Affairs
+              </a>
+            </li>
+            <li>
+              <a class="fontWhite" href="https://www.mofaga.gov.np/"
+                >Ministry Of Federal Affairs And General Administration
+              </a>
+            </li>
+            <li>
+              <a class="fontWhite" href="http://www.ocmcm.bagamati.gov.np/"
+                >Office Of The Chief Minister And Council Of Ministers
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr style="background-color: white" />
+      <p class="fontWhite footerSpace">
+        © 2023 Kathmandu Metropolitan City, City Executive Office, Bagmati
+        Province
+      </p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
